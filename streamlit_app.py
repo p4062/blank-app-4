@@ -1,6 +1,8 @@
 import streamlit as st
 
 st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+
+# Button
+if st.button("Show Message"):
+    st.info("This is your message box!")
+
